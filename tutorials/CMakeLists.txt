@@ -1,0 +1,3 @@
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/sqlite_orm/include)
+
+ADD_SUBDIRECTORY(insert)
