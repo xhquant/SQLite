@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/build/tutorials/select/select.sqlite</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="teach_yourself_SQL" uuid="9f79c482-b0ca-4c52-b06f-0a6832270d07">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/tutorials/db/teach_yourself_SQL.sql3</jdbc-url>
+    </data-source>
   </component>
 </project>
